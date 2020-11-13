@@ -1,0 +1,5 @@
+train (t-10e202p5khbabze72r3h2qewe) {
+  utterance ("[g:RestaurantNearby] (non veg)[v:foodType:Non-Veg] restaurants (near)[v:geo.NamedPoint] me")
+  plan (Y2BhUCrISaxML8ovzUvRq8rPTSzJDynKTMzRK0otLkksLUrMKylmUMehJgiuxi81sSipkkEeh8K0/PyUkMqCVAahsswyvfTUfD2/xNzUlID8zLwSBmYGRgYmIMkApEEQAuCiAA==)
+  last-modified (1605282844978)
+}

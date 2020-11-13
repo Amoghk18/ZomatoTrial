@@ -1,0 +1,4 @@
+vocab(foodType){
+  "Veg" {"veg", "Veg"}
+  "Non-Veg" {"Non Veg", "Non-Veg", "Non veg", "Non-veg", "non-veg", "non veg"}
+}

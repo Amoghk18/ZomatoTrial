@@ -1,0 +1,5 @@
+enum (foodType) {
+  description (Veg or Non-veg)
+  symbol (Veg)
+  symbol (Non-Veg)
+}

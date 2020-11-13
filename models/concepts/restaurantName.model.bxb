@@ -1,0 +1,3 @@
+text (restaurantName) {
+  description (Name of the restaurant)
+}

@@ -1,0 +1,7 @@
+structure (restaurants) {
+  description (List of different restaurants)
+  property (restaurantName) {
+    type (restaurantName)
+    min (Optional) max (Many)
+  }
+}

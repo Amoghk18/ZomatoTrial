@@ -1,0 +1,24 @@
+action (RestaurantNearby) {
+  type(Search)
+  description (Finds nearby restaurants with food type)
+  collect {
+    input (foodtype) {
+      type (foodType)
+      min (Optional) max (One)
+    }
+    input (location){
+      //type(geo.CurrentLocation)
+      min (Optional) max (One)
+      type (geo.NamedPoint)
+       default-init {
+         if ($user.currentLocation.$exists) {
+           intent {
+             goal: geo.NamedPoint
+             value-set: geo.CurrentLocation { $expr ($user.currentLocation) }
+           }
+         } 
+       }
+    }
+  }
+  output (restaurants)
+}
